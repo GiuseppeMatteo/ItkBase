@@ -1,0 +1,15 @@
+#user-info {
+  line-height: 1.5;
+  display: flex;
+  margin-right: 2em;
+}
+
+#user-info span {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  display: block;
+}
+
+#role {
+  font-size: 0.6em !important;
+}

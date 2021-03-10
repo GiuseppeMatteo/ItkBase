@@ -1,0 +1,7 @@
+<div *ngIf="user$ | async as user" id="user-info">
+  <i class="fas fa-user-circle"></i>
+  <div>
+    <span>{{ user.name }}</span>
+    <span id="role">{{ user.roles[0].description }}</span>
+  </div>
+</div>

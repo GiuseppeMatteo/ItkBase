@@ -1,0 +1,66 @@
+.release {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px 30px;
+}
+
+.release-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.release ul {
+  list-style: disc;
+  margin-top: 0;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.release-logo {
+  width: 7%;
+  margin: 1%;
+  float: right;
+}
+
+.release-Description {
+  margin-right: 1em;
+  color: #673ab7;
+}
+
+.release-Date {
+  color: #9c9a9a;
+}
+
+.features,
+.bugs {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* margin-top: 1em; */
+}
+
+.features-Title,
+.bugs-Title {
+  font-weight: bold;
+}
+
+.features ul,
+.bugs ul {
+  margin: 0.7em;
+}
+
+.features li,
+.bugs li {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+  list-style-type: disc;
+}
+
+#close {
+  margin: 1em;
+  cursor: pointer;
+  background-color: #ddd;
+  color: #673ab7;
+}

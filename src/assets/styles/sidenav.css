@@ -1,0 +1,20 @@
+mat-sidenav img {
+  margin: 1em;
+  display: block;
+}
+
+mat-nav-list {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: -webkit-center;
+}
+
+.mat-list-item:first-of-type {
+  border-top: 1px solid;
+  margin-top: 0.5em;
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,25 @@
+<div *ngFor="let release of info$ | async" class="release">
+  <div class="release-title">
+    <span class="release-Description">{{ release.Description }}</span>
+    <span class="release-Date">({{ release.Date }})</span>
+  </div>
+  <ul>
+    <li *ngFor="let bugs of release.Bugs" class="bugs">
+      <span class="bugs-Title">Bug Fixes</span>
+      <ul>
+        <li class="bugs-Description">
+          <strong>{{ bugs.Title }}:</strong>&nbsp;{{ bugs.Description }}
+        </li>
+      </ul>
+    </li>
+    <li *ngFor="let features of release.Features" class="features">
+      <span class="features-Title">Features</span>
+      <ul>
+        <li class="features-Description">
+          <strong>{{ features.Title }}:</strong>&nbsp;{{ features.Description }}
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <hr />
+</div>

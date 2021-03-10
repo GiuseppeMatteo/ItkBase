@@ -1,0 +1,53 @@
+#error h1 {
+  background-color: #295eb9;
+  color: #fff;
+  font-size: inherit;
+  padding-left: 1%;
+  margin: 0;
+  padding: 0.5em;
+}
+
+#error .bottoni {
+  clear: both;
+  border-top: 1px solid #ddd;
+  text-align: right;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#error .bottoni button {
+  margin-right: 1em;
+  width: 15%;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  background-color: #295eb9;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0.3em;
+}
+
+#error .body {
+  padding: 1em;
+}
+
+.titleNotFound404 {
+  text-align: center !important;
+  padding-top: 1.3em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+  border-bottom: none !important;
+}
+
+#btnClose404Modal {
+  border: none;
+  width: 20%;
+  margin-left: 40%;
+  background-color: #295eb9;
+  color: #fff;
+  margin-top: 1.6em;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin-bottom: 2em;
+}
